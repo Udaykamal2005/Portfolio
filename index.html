@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css"
+        integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        nav {
+            background-color: rgb(18, 18, 58);
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 23px;
+            list-style: none;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+            margin: 70px 0;
+            align-items: center;
+        }
+
+        .leftsection div {
+            font-size: 2rem;
+        }
+
+        .purple {
+            font-size: 2rem;
+            color: blueviolet;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 44px 0;
+        }
+
+        ul a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul a li:hover {
+            color: rgb(108, 174, 225);
+            font-size: 1.1rem;
+        }
+
+        #element {
+            font-size: 2rem;
+            color: blueviolet;
+        }
+
+        hr {
+            border: 0;
+            background-color: white;
+            height: 0.1px;
+            margin: 100px 80px;
+        }
+
+        .secondsection {
+            margin: auto;
+            max-width: 80vw;
+            height: 80vh;
+        }
+
+        .secondsection .text-gray {
+            color: gray;
+            font-size: 14px;
+        }
+
+        .secondsection h1 {
+            font-size: 20px;
+        }
+
+        .secondsection .box {
+            height: 2px;
+            background-color: white;
+            width: 80vw;
+            margin-top: 56px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .secondsection .vrline {
+            height: 93px;
+            width: 0.2px;
+            background-color: white;
+        }
+
+        .secondsection .box .vrline img {
+            height: 32px;
+            width: 33px;
+        }
+
+        .secondsection .box .vrline .year {
+            color: rgb(187, 140, 231);
+        }
+
+        .image-top {
+            position: relative;
+            bottom: 39px;
+            right: 15px;
+        }
+
+        .vr1 {
+            position: relative;
+            top: 61px;
+            right: 7px;
+            width: 120px;
+        }
+
+        footer {
+            background-color: rgb(19, 13, 25);
+        }
+
+        .footer ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-rights{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Udaykamal's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <a href="/">
+                        <li>Home</li>
+                    </a>
+                    <a href="/">
+                        <li>About</li>
+                    </a>
+                    <a href="/">
+                        <li>Services</li>
+                    </a>
+                    <a href="/">
+                        <li>Projects</li>
+                    </a>
+                    <a href="/">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, my name is <span class="purple">UdayKamal</span> and iam a passionate
+                <div><span id="element"></span></div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="developer">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vrline">
+                    <img src="html.png" alt="html" class="image-top">
+                    <div class="vr1">Html Developer <span class="year">(2023 to 2024)</span>
+                    </div>
+                </div>
+                <div class="vrline">
+                    <img src="css-logo.png" alt="html" class="image-top">
+                    <div class="vr1">Css Developer <span class="year">(2023 to 2024)</span>
+                    </div>
+                </div>
+                <div class="vrline">
+                    <img src="js.png" alt="html" class="image-top">
+                    <div class="vr1">Js Developer <span class="year">(2023 to 2024)</span>
+                    </div>
+                </div>
+                <div class="vrline">
+                    <img src="java.png" alt="html" class="image-top">
+                    <div class="vr1">java basics <span class="year">(2022 to 2024)</span>
+                    </div>
+                </div>
+                <div class="vrline">
+                    <img src="c.png" alt="html" class="image-top">
+                    <div class="vr1">c language <span class="year">(2022 to 2024)</span>
+                    </div>
+                </div>
+                <div class="vrline">
+                    <img src="python (2).png" alt="html" class="image-top">
+                    <div class="vr1">python basics <span class="year">(2022 to 2024)</span>
+                    </div>
+                </div>
+                <div class="vrline">
+                    <img src="html.png" alt="html" class="image-top">
+                    <div class="vr1">c language.<span class="year">(2022 to 2024)</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h1 style="padding: 20px;">Udaykamal's info:</h1>
+            <div>
+                <ul>
+                    <a href="https://www.linkedin.com/in/udaykamal-vennampally-750535296/" style="margin:20px"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+                    <a href="https://www.linkedin.com/in/udaykamal-vennampally-750535296/" style="margin:20px"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+                    <a href="https://www.linkedin.com/in/udaykamal-vennampally-750535296/" style="margin:20px"><i class="fa-brands fa-square-instagram"></i>Instagram</a>
+                </ul>
+            </div>
+            <div class="footer-rights"><i class="fa-regular fa-copyright"></i>www.udaykamalsportfolio.com | All rights reserved</div>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Programmer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+
+</html>
